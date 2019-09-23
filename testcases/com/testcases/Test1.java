@@ -1,8 +1,15 @@
 package com.testcases;
 
+import org.testng.annotations.Test;
+
+
+
 public class Test1 {
 	
-	public static void main(String[] args) {
-		System.out.println("test shrikanth");
+	
+	
+	@Test
+	public void name() {
+		System.out.println("test is certified");
 	}
 }
