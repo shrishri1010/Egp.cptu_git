@@ -14,7 +14,6 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.egp.qa.base.TestBase;
 import com.egp.qa.helper.logger.LoggerHelper;
-
 import com.egp.qa.utilities.TestUtil;
 import com.pages.AppLtmWorkPage;
 import com.pages.CreateAppPage;
@@ -88,7 +87,7 @@ public class AnnualProcPlan_LTM_EPW2B_WorksTestCase extends TestBase {
 	 */
 	
 	//App creation
-	//@Test(priority=1, enabled=true, groups= {"sanity"}, dataProvider="addnewpackagedata")
+	@Test(priority=1, enabled=true, groups= {"sanity"}, dataProvider="addnewpackagedata")
 	public void appCreationTest(String BudgetType, String FinancialYear, String selectProject1, String appCode,
 			String ProcurementNature, String TypeofEmergency, String PackageNo, String PackageDescription, String LotNo,
 			String LotDescription, String Quantity, String unit, String EstimatedCost, String ApprovingAuthority,
@@ -132,7 +131,7 @@ public class AnnualProcPlan_LTM_EPW2B_WorksTestCase extends TestBase {
 	 * generateTenderIdTest from Annual procurement package
 	 * @throws Throwable
 	 */
-	@Test(priority = 2, enabled = true, dataProvider = "addnewpackagedata")
+	//@Test(priority = 2, enabled = true, dataProvider = "addnewpackagedata")
 	public void generateTenderIdTest(String BudgetType, String FinancialYear, String selectProject1, String appCode,
 			String ProcurementNature, String TypeofEmergency, String PackageNo, String PackageDescription, String LotNo,
 			String LotDescription, String Quantity, String unit, String packageEstimatedCost, String ApprovingAuthority,
