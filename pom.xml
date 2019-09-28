@@ -4,11 +4,11 @@
   <artifactId>Egp.cptu_git</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <properties>
-  	<!-- <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  	 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> -->
+  <!-- <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   	<suiteXmlFile>resources/testSuite/testNGSUITECPTU.xml</suiteXmlFile>
-  </properties>
+  </properties> -->
   
   <dependencies>
     <dependency>
@@ -102,9 +102,11 @@
 			<version>2.22.0</version>
 			<configuration>
 				<suiteXmlFiles>
-					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-					<forkMode>false</forkMode>
-					<useSystemClassLoader>true</useSystemClassLoader>
+					<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+					<suiteXmlFile>resources/testSuite/LTM_EPW2B/APP_Tender_Creation_LTM_EPW2B_TestNG.xml</suiteXmlFile>
+					
+					<!-- <forkMode>false</forkMode>
+					<useSystemClassLoader>true</useSystemClassLoader> -->
 				</suiteXmlFiles>
 			</configuration>
 		</plugin>
