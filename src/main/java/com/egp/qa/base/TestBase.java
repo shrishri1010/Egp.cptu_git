@@ -93,7 +93,7 @@ public class TestBase {
 	        options.addArguments("--disable-gpu"); //https:*/
 			
 			//System.setProperty("webdriver.chrome.driver", FileReaderManager.getInstance().getConfigReader().getDriverPath());
-			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("src/main/resources/drivers/chromedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", ResourceHelper.getResourcePath("resources/drivers/chromedriver.exe"));
 			//ChromeOptions options = new ChromeOptions();
 			//options.addArguments("--no-sandbox");
 			driver = new ChromeDriver();		

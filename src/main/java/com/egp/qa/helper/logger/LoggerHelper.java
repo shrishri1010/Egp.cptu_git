@@ -12,7 +12,7 @@ public class LoggerHelper {
 		if (root) {
 			return Logger.getLogger(cls);
 		}
-		PropertyConfigurator.configure(ResourceHelper.getResourcePath("/src/main/resources/configfile/log4j.properties"));
+		PropertyConfigurator.configure(ResourceHelper.getResourcePath("/resources/configfile/log4j.properties"));
 		root=true;
 		return Logger.getLogger(cls);
 	}
