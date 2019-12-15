@@ -16,7 +16,9 @@ public class ConfigFileReader {
 	
 	private Properties properties;
 	//private final String propertyFilePath= "C:\\eclps2\\EGP.cptu\\src\\main\\java\\com\\E_GP\\QA\\Config\\Configuation.properties";
-	private final String propertyFilePath = "D:\\SVN Code Sync\\EGP.cptu\\src\\main\\java\\com\\egp\\qa\\config\\configuration.properties";
+	//private final String propertyFilePath = "D:\\SVN Code Sync\\EGP.cptu\\src\\main\\java\\com\\egp\\qa\\config\\configuration.properties";
+	
+	private final String propertyFilePath = "C:\\Users\\Shrikanth Kulal\\git\\Egp.cptu_git\\src\\main\\java\\com\\egp\\qa\\config\\configuration.properties";
 	
 	public ConfigFileReader(){
 		BufferedReader reader;
